@@ -1,0 +1,26 @@
+.d-flex {
+	display: flex; 
+}
+  .d-flex > * {
+	flex-grow: 1; 
+  }
+  
+  @media all and (max-width: 40em) {
+	.d-flex {
+	  flex-direction: column;
+	}
+  }
+  
+  
+  body {
+	font-family: sans-serif;
+  }
+  
+  .d-flex > * {
+	background-color: hsl(240, 20%, 90%);
+	color: hsl(240, 20%, 30%);
+	margin: 1vw;
+	padding: 2em;
+	text-align: center;
+	border-radius: 16px;
+  }
